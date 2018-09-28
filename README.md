@@ -4,7 +4,7 @@ This repo contains Python code examples on Google Cloud Platform (GCP).
 
 These examples show how to use Python 3 and Google Python Client Libraries in order to manage services on Google Cloud Platform. These use Google Cloud Python Client Library or Google API Python Client Library.
 
-Google Python Client Libraries are the Google Cloud Platform (GCP) SDKs for Python, which allows Python developers to write software that makes use of Google Cloud services like Compute Engine and Cloud storage.
+Google Python Client Libraries are the Google Cloud Platform (GCP) SDKs for Python, which allows Python developers to write software that makes use of Google Cloud services like Compute Engine and Cloud Storage.
 
 Google Python Client Libraries offers two different styles of API:
 
