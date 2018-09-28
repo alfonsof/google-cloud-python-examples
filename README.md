@@ -21,7 +21,7 @@ For instructions on running the code, please consult the README in each folder.
 
 This is the list of examples:
 
-**Compute - Amazon EC2:**
+**Compute - Compute Engine:**
 
 * [gcloudcomputeengine](/gcloudcomputeengine) - Compute Engine VM instances: Example of how to handle Compute Engine VM instances using the Google API Client Library.
 
