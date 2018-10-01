@@ -25,6 +25,10 @@ This is the list of examples:
 
 * [gcloudcomputeengine](/gcloudcomputeengine) - Compute Engine VM instances: Example of how to handle Compute Engine VM instances using the Google API Client Library.
 
+**Storage - Cloud Storage:**
+
+* [gcloudstoragecreate](/gcloudstoragecreate) - Google Cloud Storage Create: Example of how to handle Cloud Storage buckets and create a new Google Storage bucket in a Google Cloud Project.
+
 ## License
 
 This code is released under the MIT License. See LICENSE file.
