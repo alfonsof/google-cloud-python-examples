@@ -4,7 +4,6 @@
 # It is an example of how to handle Google Cloud Compute Engine VM instances.
 
 import sys
-import googleapiclient.discovery
 import computeenginehelper
 
 def print_menu():

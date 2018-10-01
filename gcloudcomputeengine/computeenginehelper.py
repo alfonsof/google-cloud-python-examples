@@ -94,10 +94,9 @@ def create_instance():
                             zone=ZONE_NAME,
                             body=config).execute()
 
-  print('Instance Id:   ' + response['id'])
-  print('Response:   ' + response['name'])
+  print('Instance Id: ' + response['targetId'])
 
-  return response['id']
+  return response['targetId']
 
 
 def list_instance(instance_id):
@@ -112,7 +111,6 @@ def list_instance(instance_id):
 
   # List the VM instance
   response = compute.instances().get(project=PROJECT_NAME, zone=ZONE_NAME, instance=INSTANCE_NAME).execute()
-  print(response)
 
   print(' - Id:           ' + response['id'])
   print('   Name:         ' + response['name'])
@@ -130,6 +128,7 @@ def start_instance(instance_id):
   compute = googleapiclient.discovery.build('compute', 'v1')
 
   print('Starting VM instance ...')
+  print('Instance Id: ' + instance_id)
 
   # Start VM instance
   compute.instances().start(
@@ -148,6 +147,7 @@ def stop_instance(instance_id):
   compute = googleapiclient.discovery.build('compute', 'v1')
 
   print('Stopping VM instance ...')
+  print('Instance Id: ' + instance_id)
 
   # Stop VM instance
   compute.instances().stop(
@@ -166,6 +166,7 @@ def reset_instance(instance_id):
   compute = googleapiclient.discovery.build('compute', 'v1')
 
   print('Resetting VM instance ...')
+  print('Instance Id: ' + instance_id)
 
   # Reset VM instance
   compute.instances().reset(
@@ -184,6 +185,7 @@ def delete_instance(instance_id):
   compute = googleapiclient.discovery.build('compute', 'v1')
 
   print('Deleting VM instance ...')
+  print('Instance Id: ' + instance_id)
 
   # Delete VM instance
   compute.instances().delete(
