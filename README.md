@@ -31,6 +31,7 @@ This is the list of examples:
 * [gcloudstoragedelete](/gcloudstoragedelete) - Google Cloud Storage Delete: Example of how to handle Cloud Storage buckets and delete a Google Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
 * [gcloudstoragelist](/gcloudstoragelist) - Google Cloud Storage List: Example of how to handle Cloud Storage buckets and list information about the objects in a Cloud Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
 * [gcloudstoragelistall](/gcloudstoragelistall) - Google Cloud Storage List All: Example of how to handle Cloud Storage buckets and list information about all Cloud Storage buckets and the objects that they contain in a Google Cloud Project. It uses the Google Cloud Client Library.
+* [gcloudstorageupload](/gcloudstorageupload) - Google Cloud Storage Upload: Example of how to handle Cloud Storage buckets and upload a local file to a Cloud Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
 
 ## License
 
