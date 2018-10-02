@@ -30,6 +30,7 @@ This is the list of examples:
 * [gcloudstoragecreate](/gcloudstoragecreate) - Google Cloud Storage Create: Example of how to handle Cloud Storage buckets and create a new Google Storage bucket in a Google Cloud Project.
 * [gcloudstoragedelete](/gcloudstoragedelete) - Google Cloud Storage Delete: Example of how to handle Cloud Storage buckets and delete a Google Storage bucket in a Google Cloud Project.
 * [gcloudstoragelist](/gcloudstoragelist) - Google Cloud Storage List: Example of how to handle Cloud Storage buckets and list information about the objects in a Cloud Storage bucket in a Google Cloud Project.
+* [gcloudstoragelistall](/gcloudstoragelistall) - Google Cloud Storage List All: Example of how to handle Cloud Storage buckets and list information about all Cloud Storage buckets and the objects that they contain in a Google Cloud Project.
 
 ## License
 
