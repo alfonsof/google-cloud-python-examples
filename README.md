@@ -23,14 +23,14 @@ This is the list of examples:
 
 **Compute - Compute Engine:**
 
-* [gcloudcomputeengine](/gcloudcomputeengine) - Compute Engine VM instances: Example of how to handle Compute Engine VM instances using the Google API Client Library.
+* [gcloudcomputeengine](/gcloudcomputeengine) - Compute Engine VM instances: Example of how to handle Compute Engine VM instances. It uses the Google API Client Library.
 
 **Storage - Cloud Storage:**
 
-* [gcloudstoragecreate](/gcloudstoragecreate) - Google Cloud Storage Create: Example of how to handle Cloud Storage buckets and create a new Google Storage bucket in a Google Cloud Project.
-* [gcloudstoragedelete](/gcloudstoragedelete) - Google Cloud Storage Delete: Example of how to handle Cloud Storage buckets and delete a Google Storage bucket in a Google Cloud Project.
-* [gcloudstoragelist](/gcloudstoragelist) - Google Cloud Storage List: Example of how to handle Cloud Storage buckets and list information about the objects in a Cloud Storage bucket in a Google Cloud Project.
-* [gcloudstoragelistall](/gcloudstoragelistall) - Google Cloud Storage List All: Example of how to handle Cloud Storage buckets and list information about all Cloud Storage buckets and the objects that they contain in a Google Cloud Project.
+* [gcloudstoragecreate](/gcloudstoragecreate) - Google Cloud Storage Create: Example of how to handle Cloud Storage buckets and create a new Google Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
+* [gcloudstoragedelete](/gcloudstoragedelete) - Google Cloud Storage Delete: Example of how to handle Cloud Storage buckets and delete a Google Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
+* [gcloudstoragelist](/gcloudstoragelist) - Google Cloud Storage List: Example of how to handle Cloud Storage buckets and list information about the objects in a Cloud Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
+* [gcloudstoragelistall](/gcloudstoragelistall) - Google Cloud Storage List All: Example of how to handle Cloud Storage buckets and list information about all Cloud Storage buckets and the objects that they contain in a Google Cloud Project. It uses the Google Cloud Client Library.
 
 ## License
 
