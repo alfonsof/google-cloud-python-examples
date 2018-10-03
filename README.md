@@ -33,6 +33,7 @@ This is the list of examples:
 * [gcloudstoragelistall](/gcloudstoragelistall) - Google Cloud Storage List All: Example of how to handle Cloud Storage buckets and list information about all Cloud Storage buckets and the objects that they contain in a Google Cloud Project. It uses the Google Cloud Client Library.
 * [gcloudstorageupload](/gcloudstorageupload) - Google Cloud Storage Upload: Example of how to handle Cloud Storage buckets and upload a local file to a Cloud Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
 * [gcloudstoragedownload](/gcloudstoragedownload) - Google Cloud Storage Download: Example of how to handle Cloud Storage buckets and download an object in a Cloud Storage bucket in a Google Cloud Project to a local file. It uses the Google Cloud Client Library.
+* [gcloudstoragecopy](/gcloudstoragecopy) - Google Cloud Storage Copy: Example of how to handle Cloud Storage buckets and copy an object from a Google Storage bucket to another Google Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
 
 ## License
 
