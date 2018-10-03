@@ -38,14 +38,15 @@ def main():
 
   print('Uploading an object to Cloud Storage bucket from a file ...')
   
-  # Instantiate the client
+  # Instantiate the client.
   client = storage.Client()
 
   try:
-    # Get the bucket
+    # Get the bucket.
     bucket = client.get_bucket(bucket_name)
-    # Uploads a file to the bucket.
+    # Instantiate the object.
     blob = bucket.blob(blob_name)
+    # Uploads a file to the bucket.
     blob.upload_from_filename(local_file_name)
     print('\nUploaded')
   except NotFound:

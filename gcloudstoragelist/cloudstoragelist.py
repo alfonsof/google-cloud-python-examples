@@ -23,17 +23,17 @@ def main():
   bucket_name = args[0]
   print('Bucket name: ' + bucket_name)
 
-  # Instantiate the client
-  client = storage.Client()
-
   print('Listing objects ...')
   
-  # Instantiate the bucket
-  bucket = client.bucket(bucket_name)
+  # Instantiate the client.
+  client = storage.Client()
+
   try:
-    # Get the bucket
+    # Instantiate the bucket.
+    bucket = client.bucket(bucket_name)
+    # Get the bucket.
     bucket = client.get_bucket(bucket_name)
-    # Lists all the blobs in the bucket
+    # Lists all the blobs in the bucket.
     blobs = bucket.list_blobs()
     for blob in blobs:
       print(' -', blob.name)

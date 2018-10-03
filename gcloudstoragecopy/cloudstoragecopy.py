@@ -41,7 +41,7 @@ def main():
   try:
     # Get the source bucket.
     source_bucket = client.get_bucket(source_bucket_name)
-    # Get the source object.
+    # Instantiate the source object.
     source_blob = source_bucket.blob(source_blob_name)
     # Get the destination bucket.
     destination_bucket = client.get_bucket(destination_bucket_name)

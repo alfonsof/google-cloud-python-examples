@@ -9,16 +9,16 @@ from google.cloud import storage
 
 def main():
 
-  # Instantiate the client
-  client = storage.Client()
-
   print('Listing Cloud Storage buckets and objects ...')
   
-  # List all the buckets
+  # Instantiate the client.
+  client = storage.Client()
+
+  # List all the buckets.
   buckets = client.list_buckets()
   for bucket in buckets:
     print('* Bucket:', bucket.name)
-    # Lists all the blobs in the bucket
+    # Lists all the blobs in the bucket.
     blobs = bucket.list_blobs()
     for blob in blobs:
       print('  - Object:', blob.name)

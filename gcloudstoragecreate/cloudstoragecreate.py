@@ -24,15 +24,15 @@ def main():
   bucket_name = args[0]
   print('Bucket name: ' + bucket_name)
 
-  # Instantiate the client
-  client = storage.Client()
-
   print('Creating bucket ...')
   
-  # Instantiate the bucket
-  bucket = client.bucket(bucket_name)
+  # Instantiate the client.
+  client = storage.Client()
+
   try:
-    # Create the bucket object
+    # Instantiate the bucket.
+    bucket = client.bucket(bucket_name)
+    # Create the bucket object.
     bucket.create(location=STORAGE_LOCATION)
     print('\nCreated')
   except Conflict:

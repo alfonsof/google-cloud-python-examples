@@ -40,8 +40,9 @@ def main():
   try:
     # Get the bucket.
     bucket = client.get_bucket(bucket_name)
-    # Downloads an object from the bucket.
+    # Instantiate the object.
     blob = bucket.blob(blob_name)
+    # Downloads an object from the bucket.
     blob.download_to_filename(local_file_name)
     print('\nDownloaded')
   except NotFound:

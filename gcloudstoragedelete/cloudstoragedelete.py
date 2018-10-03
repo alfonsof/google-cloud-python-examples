@@ -23,15 +23,15 @@ def main():
   bucket_name = args[0]
   print('Bucket name: ' + bucket_name)
 
-  # Instantiate the client
-  client = storage.Client()
-
   print('Deleting bucket ...')
   
-  # Instantiate the bucket
-  bucket = client.bucket(bucket_name)
+  # Instantiate the client.
+  client = storage.Client()
+
   try:
-    # Delete the bucket
+    # Instantiate the bucket.
+    bucket = client.bucket(bucket_name)
+    # Delete the bucket.
     bucket.delete()
     print('\nDeleted')
   except NotFound:
