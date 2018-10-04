@@ -3,6 +3,7 @@
 # cloudstoragelistall.py
 # It is an example that handles Cloud Storage buckets on Google Cloud Platform (GCP).
 # List information about all Cloud Storage buckets and the objects that they contain.
+# The credentials are taken from GOOGLE_APPLICATION_CREDENTIALS environment variable.
 
 import sys
 from google.cloud import storage

@@ -4,6 +4,8 @@ This folder contains a Python application example that handles Cloud Storage buc
 
 List information about all Cloud Storage buckets and the objects that they contain in a Google Cloud Project.
 
+The credentials are taken from GOOGLE_APPLICATION_CREDENTIALS environment variable.
+
 ## Requirements
 
 * You must have a [Google Cloud Platform (GCP)](http://cloud.google.com/) account.
