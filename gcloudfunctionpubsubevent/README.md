@@ -1,4 +1,4 @@
-# Cloud Function Pub/Sub Event Python example
+# Google Cloud Function Pub/Sub Event Python example
 
 This folder contains a Google Cloud Function example in Python on Google Cloud Platform (GCP).
 
