@@ -65,7 +65,7 @@ It handles a Google Cloud Function that sends information about a Cloud Pub/Sub 
   
   * First test
 
-    Encode to Base64 format the text `Peter` using and external tool. You should get `UGV0ZXI=`.
+    Encode to Base64 format the text `Peter` using an external tool. You should get `UGV0ZXI=`.
 
     Enter the `Triggering event` content:
 
