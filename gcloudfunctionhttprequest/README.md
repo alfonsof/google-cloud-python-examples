@@ -45,9 +45,11 @@ It handles a Google Cloud Function that responds to an HTTP request.
 
     Enter the `Triggering event` content:
 
+    ```json
     {
       "message": "Hello Peter!"
     }
+    ```
 
     Click `Test the function`.
 
