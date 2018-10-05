@@ -43,8 +43,10 @@ It handles a Google Cloud Function that sends information about a Cloud Pub/Sub 
 
     Enter the `Triggering event` content:
 
+    ```json
     {
     }
+    ```
 
     Click `Test the function`.
 
@@ -68,9 +70,11 @@ It handles a Google Cloud Function that sends information about a Cloud Pub/Sub 
 
     Enter the `Triggering event` content:
 
+    ```json
     {
       "data": "UGV0ZXI="
     }
+    ```
 
     Click `Test the function`.
 
