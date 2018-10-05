@@ -25,6 +25,12 @@ This is the list of examples:
 
 * [gcloudcomputeengine](/gcloudcomputeengine) - Compute Engine VM instances: Example of how to handle Compute Engine VM instances. It uses the Google API Client Library.
 
+**Compute - Cloud Functions:**
+
+* [gcloudfunctionpubsubevent](/gcloudfunctionpubsubevent) - Cloud Function Pub/Sub Event: Example of how to handle a Google Cloud Function that sends information about a Cloud Pub/Sub event that depends on the input to the function log.
+* [gcloudfunctiongcsevent](/gcloudfunctiongcsevent) - Google Cloud Function Cloud Storage Event: Example of how to handle a Google Cloud Function that sends information to the function log about an object when it appears in a Cloud Storage bucket.
+* [gcloudfunctionhttprequest](/gcloudfunctionhttprequest) - Google Cloud Function HTTP request: Example of how to handle a Google Cloud Function that responds to an HTTP request.
+
 **Storage - Cloud Storage:**
 
 * [gcloudstoragecreate](/gcloudstoragecreate) - Google Cloud Storage Create: Example of how to handle Cloud Storage buckets and create a new Google Storage bucket in a Google Cloud Project. It uses the Google Cloud Client Library.
