@@ -46,6 +46,8 @@ It handles a Google Cloud Function that copies an object when it appears in a Cl
   * Region: `<GOOGLE_CLOUD_REGION>`
   * Timeout: `60 seconds`
 
+* You can select the destination bucket name changing the value of `DESTINATION_BUCKET` variable in the code.
+
 * Save the Google Cloud Function.
 
   The function is deployed and run.
