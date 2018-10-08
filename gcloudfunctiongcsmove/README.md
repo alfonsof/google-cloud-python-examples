@@ -10,6 +10,18 @@ It handles a Google Cloud Function that Moves an object when it appears in a Clo
 
 * The code was written for Python 3 and Google Cloud Python Client Library.
 
+* Dependencies in Python are managed with pip and expressed in a metadata file called `requirements.txt` shipped alongside your function.
+
+  This `requirements.txt` file must be in the same directory as the `main.py` file that contains your function code.
+
+  The `requirements.txt` file contains one line per library. Each line contains the package name, and optionally, the requested version.
+
+  In order to use the Google Cloud Python Client Library, the file needs to include this dependency:
+
+  ```bash
+  google-cloud-storage==1.12.0
+  ```
+
 ## Using the code
 
 * Access the Google Cloud console.

@@ -1,4 +1,4 @@
-# Google Cloud Function HTTP request Python example
+# Google Cloud Function HTTP Request Python example
 
 This folder contains a Google Cloud Function example in Python on Google Cloud Platform (GCP).
 
