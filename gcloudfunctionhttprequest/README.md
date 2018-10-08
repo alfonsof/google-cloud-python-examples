@@ -8,7 +8,7 @@ It handles a Google Cloud Function that responds to an HTTP request.
 
 * You must have a [Google Cloud Platform (GCP)](http://cloud.google.com/) account.
 
-* The code was written for Python 3 and Google Cloud Python Client Library.
+* The code was written for Python 3.
 
 ## Using the code
 
