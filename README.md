@@ -28,8 +28,10 @@ This is the list of examples:
 **Compute - Cloud Functions:**
 
 * [gcloudfunctionpubsubevent](/gcloudfunctionpubsubevent) - Cloud Function Pub/Sub Event: Example of how to handle a Google Cloud Function that sends information about a Cloud Pub/Sub event that depends on the input to the function log.
+* [gcloudfunctionhttprequest](/gcloudfunctionhttprequest) - Google Cloud Function HTTP Request: Example of how to handle a Google Cloud Function that responds to an HTTP request.
 * [gcloudfunctiongcsevent](/gcloudfunctiongcsevent) - Google Cloud Function Cloud Storage Event: Example of how to handle a Google Cloud Function that sends information to the function log about an object when it appears in a Cloud Storage bucket.
-* [gcloudfunctionhttprequest](/gcloudfunctionhttprequest) - Google Cloud Function HTTP request: Example of how to handle a Google Cloud Function that responds to an HTTP request.
+* [gcloudfunctiongcscopy](/gcloudfunctiongcscopy) - Google Cloud Function Cloud Storage Copy: Example of how to handle an Google Cloud Function and copy an object when it appears in a Cloud Storage bucket to another Cloud Storage bucket.
+* [gcloudfunctiongcsmove](/gcloudfunctiongcsmove) - Google Cloud Function Cloud Storage Move: Example of how to handle an Google Cloud Function function and move an object when it appears in a Cloud Storage bucket to another Cloud Storage bucket.
 
 **Storage - Cloud Storage:**
 
