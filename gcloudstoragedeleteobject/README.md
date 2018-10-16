@@ -76,4 +76,4 @@ Delete an object in a Google Storage bucket for a Google Cloud Project.
 
 * Test the application.
 
-  You should see the object deleted in the Google Storage bucket in the Google Cloud Project.
+  You should not see the object deleted in the Google Storage bucket in the Google Cloud Project.
