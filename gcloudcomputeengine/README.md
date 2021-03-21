@@ -12,7 +12,10 @@ This folder contains a Python application example that handles Compute Engine VM
   It contains gcloud, gsutil, and bq, which you can use to access Google Compute Engine, Google Cloud Storage, Google BigQuery,
   and other products and services from the command line. You can run these tools interactively or in your automated scripts.* The code was written for Python 3 and Google Cloud Python Client Library.
 
-* The code was written for Python 3 and Google API Python Client Library.
+* The code was written for:
+  
+  * Python 3
+  * Google API Python Client Library
 
 * Install the Google API Python Client Library.
 

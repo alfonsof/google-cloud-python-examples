@@ -16,7 +16,10 @@ The user must provide the credentials using the application parameters.
   It contains gcloud, gsutil, and bq, which you can use to access Google Compute Engine, Google Cloud Storage, Google BigQuery,
   and other products and services from the command line. You can run these tools interactively or in your automated scripts.* The code was written for Python 3 and Google Cloud Python Client Library.
 
-* The code was written for Python 3 and Google Cloud Python Client Library.
+* The code was written for:
+  
+  * Python 3
+  * Google API Python Client Library
 
 * Install the Google Cloud Python Client Library.
 

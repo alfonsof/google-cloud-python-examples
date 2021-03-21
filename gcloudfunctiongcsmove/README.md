@@ -8,7 +8,10 @@ It handles a Google Cloud Function that Moves an object when it appears in a Clo
 
 * You must have a [Google Cloud Platform (GCP)](http://cloud.google.com/) account.
 
-* The code was written for Python 3 and Google Cloud Python Client Library.
+* The code was written for:
+  
+  * Python 3
+  * Google API Python Client Library
 
 * Dependencies in Python are managed with pip and expressed in a metadata file called `requirements.txt` shipped alongside your function.
 
