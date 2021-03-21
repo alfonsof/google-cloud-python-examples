@@ -10,25 +10,25 @@ from google.cloud import storage
 
 def main():
 
-  print('Listing Cloud Storage buckets and objects ...')
-  
-  # Instantiate the client.
-  client = storage.Client()
+    print('Listing Cloud Storage buckets and objects ...')
+    
+    # Instantiate the client.
+    client = storage.Client()
 
-  # List all the buckets.
-  buckets = client.list_buckets()
-  for bucket in buckets:
-    print('* Bucket:', bucket.name)
-    # Lists all the blobs in the bucket.
-    blobs = bucket.list_blobs()
-    for blob in blobs:
-      print('  - Object:', blob.name)
-      print('            size:', blob.size)
-  print('\nListed')
- 
-  return
+    # List all the buckets.
+    buckets = client.list_buckets()
+    for bucket in buckets:
+        print('* Bucket:', bucket.name)
+        # Lists all the blobs in the bucket.
+        blobs = bucket.list_blobs()
+        for blob in blobs:
+            print('  - Object:', blob.name)
+            print('            size:', blob.size)
+    print('\nListed')
+  
+    return
   
 
 # This is the standard boilerplate that calls the main() function.
 if __name__ == '__main__':
-  main()
+    main()
