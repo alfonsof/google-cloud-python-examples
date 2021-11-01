@@ -48,6 +48,7 @@ Create a new Google Storage bucket in a Google Cloud Project.
   * Go to the Google Cloud Project.
 
   * Prepare the credentials:
+
     * Create a Service account.
 
       For example:
@@ -68,14 +69,14 @@ Create a new Google Storage bucket in a Google Cloud Project.
 
 * Run the code.
 
-  You must provide 1 parameter:
+  You must provide 1 parameter, replace the value of:
   
-  * `<BUCKET_NAME>` = Bucket name
+  * `<BUCKET_NAME>` by Bucket name.
 
   Run application:
 
   ```bash
-  python cloudstoragecreate.py bucket-name
+  python cloudstoragecreate.py <BUCKET_NAME>
   ```
 
 * Test the application.

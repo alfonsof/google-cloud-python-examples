@@ -50,6 +50,7 @@ The credentials are taken from GOOGLE_APPLICATION_CREDENTIALS environment variab
   * Go to the Google Cloud Project.
 
   * Prepare the credentials:
+  
     * Create a Service account.
 
       For example:

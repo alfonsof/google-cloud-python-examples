@@ -48,6 +48,7 @@ Delete an object in a Google Storage bucket for a Google Cloud Project.
   * Go to the Google Cloud Project.
 
   * Prepare the credentials:
+
     * Create a Service account.
 
       For example:
@@ -66,15 +67,15 @@ Delete an object in a Google Storage bucket for a Google Cloud Project.
 
 * Run the code.
 
-  You must provide 2 parameters:
+  You must provide 2 parameters, replace the values of:
 
-  * `<BUCKET_NAME>` = Name of the bucket
-  * `<OBJECT_NAME>` = Name of the object in the bucket
+  * `<BUCKET_NAME>` by name of the bucket.
+  * `<OBJECT_NAME>` by name of the object in the bucket.
 
   Run application:
 
   ```bash
-  python cloudstoragedeleteobject.py bucket-name object-example
+  python cloudstoragedeleteobject.py <BUCKET_NAME> <OBJECT_NAME>
   ```
 
 * Test the application.

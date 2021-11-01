@@ -44,6 +44,7 @@ The user must provide the credentials using the application parameters.
   * Go to the Google Cloud Project.
 
   * Prepare the credentials:
+  
     * Create a Service account.
 
       For example:
@@ -60,7 +61,17 @@ The user must provide the credentials using the application parameters.
 
 * Run the code.
 
+  You must provide 1 parameter, replace the value of:
+
+  * `<CREDENTIALS_FILE_NAME>` by path and name of the JSON credential file.
+
   Run application:
+
+  ```bash
+  python cloudstoragelistallparam.py <CREDENTIALS_FILE_NAME>
+  ```
+
+  Example:
 
   ```bash
   python cloudstoragelistallparam.py ~/.gcloud/gcloud-java-examples.json

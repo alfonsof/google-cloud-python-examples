@@ -48,6 +48,7 @@ Delete a Google Storage bucket for a Google Cloud Project.
   * Go to the Google Cloud Project.
 
   * Prepare the credentials:
+
     * Create a Service account.
 
       For example:
@@ -66,14 +67,14 @@ Delete a Google Storage bucket for a Google Cloud Project.
 
 * Run the code.
 
-  You must provide 1 parameter:
+  You must provide 1 parameter, replace the value of:
   
-  * `<BUCKET_NAME>` = Bucket name
+  * `<BUCKET_NAME>` by Bucket name.
 
   Run application:
 
   ```bash
-  python cloudstoragedelete.py bucket-name
+  python cloudstoragedelete.py <BUCKET_NAME>
   ```
 
 * Test the application.

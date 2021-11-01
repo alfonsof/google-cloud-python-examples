@@ -48,6 +48,7 @@ List information about the objects in a Cloud Storage bucket in a Google Cloud P
   * Go to the Google Cloud Project.
 
   * Prepare the credentials:
+
     * Create a Service account.
 
       For example:
@@ -66,14 +67,14 @@ List information about the objects in a Cloud Storage bucket in a Google Cloud P
 
 * Run the code.
 
-  You must provide 1 parameter:
+  You must provide 1 parameter, replace the value of:
   
-  * `<BUCKET_NAME>` = Bucket name
+  * `<BUCKET_NAME>` by Bucket name.
 
   Run application:
 
   ```bash
-  python cloudstoragelist.py bucket-name
+  python cloudstoragelist.py <BUCKET_NAME>
   ```
 
 * Test the application.

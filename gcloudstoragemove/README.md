@@ -48,6 +48,7 @@ Move an object from a Google Storage bucket to another Google Storage bucket in 
   * Go to the Google Cloud Project.
 
   * Prepare the credentials:
+
     * Create a Service account.
 
       For example:
@@ -66,16 +67,16 @@ Move an object from a Google Storage bucket to another Google Storage bucket in 
 
 * Run the code.
 
-  You must provide 3 parameters:
+  You must provide 3 parameters, replace the values of:
 
-  * `<SOURCE_BUCKET>`      = Source bucket name
-  * `<SOURCE_OBJECT>`      = Source object name
-  * `<DESTINATION_BUCKET>` = Destination bucket name
+  * `<SOURCE_BUCKET>`      by source bucket name.
+  * `<SOURCE_OBJECT>`      by source object name.
+  * `<DESTINATION_BUCKET>` by destination bucket name.
 
   Run application:
 
   ```bash
-  python gcloudstoragemove.py source-bucket source-object destination-bucket
+  python gcloudstoragemove.py <SOURCE_BUCKET> <SOURCE_OBJECT> <DESTINATION_BUCKET>
   ```
 
 * Test the application.
